@@ -1,0 +1,9 @@
+.App {
+  min-height: 100hv;
+  display: flex;
+  flex-direction: column;
+}
+
+body > #root > div {
+  height: 100vh;
+}

@@ -1,0 +1,5 @@
+.navbar .navbar-nav > li .navbar-item,
+.navbar .navbar-brand,
+.nav-link {
+  color: red;
+}

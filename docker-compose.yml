@@ -1,0 +1,14 @@
+
+services:
+  cafeteria:
+    build: .
+    container_name: cafeteria_app
+    ports:
+      - "8081:80"
+    restart: always
+
+  apachebench:
+    image: jordi/ab
+    container_name: apache_bench
+    depends_on:
+      - cafeteria
